@@ -1,0 +1,269 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.wrapper{
+	width: 800px;
+	background-color: #6f5964;
+	background: #6f5964; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(#6f5964, #634e58, #1f0f13); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(#6f5964, #634e58, #1f0f13); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(#6f5964, #634e58, #1f0f13); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(#6f5964, #634e58, #1f0f13); /* Standard syntax */
+}
+.header{
+	background-color: gray;
+}
+.header h1{
+	font-family: 'Gill Sans';
+}
+#motto{
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+#name{
+	display: inline-block;
+	padding: 10px;
+}
+
+#motto{
+	display: inline-block;
+	padding: 14px;
+	float: right;
+}
+
+#me{
+	width: 270px;
+	border: 3px solid gray;
+	display: inline-block;
+	margin: 20px;
+	box-sizing: border-box;
+}
+.about{
+	display: inline-block;
+	width: 446px;
+	height: 182px;
+	vertical-align: top;
+	margin: 20px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, red, yellow);
+	background: -moz-linear-gradient(left, red, yellow);
+	background: -o-linear-gradient(left, red, yellow);
+	background: linear-gradient(to right, red, yellow); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */
+
+}
+
+.about h3{
+	color: white;
+	padding: 10px;
+	background: #888693; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#aeaeb2, #888693, #dbcdda);
+	background: -moz-linear-gradient(#aeaeb2, #888693, #dbcdda);
+	background: -o-linear-gradient(#aeaeb2, #888693, #dbcdda);
+	background: linear-gradient(#aeaeb2, #888693, #dbcdda); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */
+}
+.about p{
+	padding: 10px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, white, #dbcdda);
+	background: -moz-linear-gradient(left, white, #dbcdda);
+	background: -o-linear-gradient(left, white, #dbcdda);
+	background: linear-gradient(to right,white, #dbcdda); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */
+}
+.about a{
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, white, #dbcdda);
+	background: -moz-linear-gradient(left, white, #dbcdda);
+	background: -o-linear-gradient(left, white, #dbcdda);
+	background: linear-gradient(to right, white, #dbcdda); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */
+	padding: 0 10px 10px 10px;
+	display: block;
+}
+
+.work{
+	background-color: white;
+	height: 420px;
+	width: 225px;
+	margin: 0px 10px 20px 20px;
+	display: inline-block;
+}
+.icon{
+	 width: 25px;
+	 padding: 5px 5px 0 5px; 
+}
+
+.work-top{
+	width: 225px;
+}
+
+.work h3{
+	color: white;
+	padding: 5px;
+	background: #888693; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#aeaeb2, #888693, #aeaeb2);
+	background: -moz-linear-gradient(#aeaeb2, #888693, #aeaeb2);
+	background: -o-linear-gradient(#aeaeb2, #888693, #aeaeb2);
+	background: linear-gradient(#aeaeb2, #888693, #aeaeb2); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */
+}
+
+.work h4{
+	color: white;
+	padding: 5px;
+	background: #888693; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#aeaeb2, #888693, #aeaeb2);
+	background: -moz-linear-gradient(#aeaeb2, #888693, #aeaeb2);
+	background: -o-linear-gradient(#aeaeb2, #888693, #aeaeb2);
+	background: linear-gradient(#aeaeb2, #888693, #aeaeb2); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */	
+}
+.work-text{
+	font-size: .7em;
+	padding: 5px;
+	height:	120px;
+}
+.buttongreen p{
+	display: inline;
+	background-color: #407d61;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	font-size: .7em;
+	padding: 2px;
+
+}
+.buttongreen{
+	text-align: center;
+}
+
+.footer{
+	background-color: #f7f7f7;
+	font-size: .7em;
+	padding: 5px;
+}
+.footer img{
+	width: 15px;
+	margin: 2px;
+	vertical-align: middle;
+}
+.footer ul li{
+	display: inline-block;
+}
+
+.footer{
+	text-align: center;
+}
+
+.footer ul{
+	margin: 10px 0 2px 0;
+}
+
+/* .wrapper{
+	width: 970px;
+	background-color: #1d355c;
+	padding: 10px;
+}
+
+.header{
+	background-color: #cc323b;
+	margin-bottom: 15px;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	/*display: inline-block;*/
+/* }
+
+.main_content{
+	font-size: 80%;
+}
+
+.left{
+	background-color: #2f7d8b;
+	display: inline-block;
+	color: white;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+.subcontents{
+	background-color: #0f1822;
+	text-decoration-color: white;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	border-radius: 10px;
+	padding: 30px;
+	margin-left: 15px;
+	width: 696px;
+}
+.subcontents p{
+
+	margin: 10px 0px;
+
+}
+
+a:link {
+	color:#62d3e1;
+}
+
+a:visited {
+	color:gray;
+}
+
+.footer{
+	background-color: #5e6672;
+	margin-top: 15px;
+	color: white;
+	border-radius: 15px;
+	padding: 10px;
+} */ */
+
+/*#wrapper{
+ width: 950px;
+ background-color: silver;
+ margin: 0px auto;
+ padding: 20px;
+}
+#header{
+ height: 150px;
+ background-color: green;
+ margin: 0px;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+ display: inline-block;
+ margin-top: 20px;
+ margin-right: 15px;
+}
+#main_content{
+ height: 400px;
+ width: 700px;
+ background-color: red;
+ display: inline-block;
+ padding: 15px;
+ vertical-align: top;
+ margin-top: 20px;
+
+
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+ display:inline-block;
+ margin-right: 10px;
+}
+#advertisement{
+ height: 120px;
+ width: 660px;
+ background-color: purple;
+ display: block;
+ margin-top: 20px;
+}*/
+
